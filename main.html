@@ -125,76 +125,104 @@
           Evergreen-Adventskalenders. Starte jetzt deine tägliche Tradition!</p>
       </div>
 
-      <div class="hero-advent__calendar-frame" id="calendar">
-        <div class="calendar-wrapper">
-          <div class="grid">
-            <button class="grid__item grid__item--sun grid__item--lg grid__item--1"><span class="grid__item-door"
-                style="background-image:url('bilder/bild.jpg')">1</span><span class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--2"><span class="grid__item-door"
-                style="background-image:url('bild2.jpg')">2</span><span class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--lg grid__item--3"><span class="grid__item-door"
-                style="background-image:url('bilder/bild3.jpeg')">3</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--moss grid__item--lg grid__item--4"><span class="grid__item-door"
-                style="background-image:url('bilder/bild.jpeg')">4</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--5"><span class="grid__item-door"
-                style="background-image:url('bilder/bild5.jpeg')">5</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--rose grid__item--lg grid__item--6"><span class="grid__item-door"
-                style="background-image:url('bilder/bild6.jpeg')">6</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--7"><span class="grid__item-door"
-                style="background-image:url('')">7</span><span class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--8"><span class="grid__item-door"
-                style="background-image:url('bilder/bild8.jpeg')">8</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--9"><span class="grid__item-door"
-                style="background-image:url('bilder/bild9.jpeg')">9</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--10"><span class="grid__item-door"
-                style="background-image:url('bilder/bild10.jpg')">10</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--sky grid__item--11"><span class="grid__item-door"
-                style="background-image:url('bilder/bild1.jpg')">11</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--12"><span class="grid__item-door"
-                style="background-image:url('bilder/bild12.jpg')">12</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--moss grid__item--lg grid__item--13"><span class="grid__item-door"
-                style="background-image:url('bild13.jpg')">13</span><span class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--14"><span class="grid__item-door"
-                style="background-image:url('bilder/bild14.jpg')">14</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--rose grid__item--15"><span class="grid__item-door"
-                style="background-image:url('bild15.jpg')">15</span><span class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--16"><span class="grid__item-door"
-                style="background-image:url('bilder/bild16.jpg')">16</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--17"><span class="grid__item-door"
-                style="background-image:url('bilder/bild17.jpeg')">17</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--sky grid__item--18"><span class="grid__item-door"
-                style="background-image:url('bild18.jpg')">18</span><span class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--rose grid__item--19"><span class="grid__item-door"
-                style="background-image:url('bild19.jpg')">19</span><span class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--20"><span class="grid__item-door"
-                style="background-image:url('bilder/bild20.jpg')">20</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--sun grid__item--lg grid__item--21"><span class="grid__item-door"
-                style="background-image:url('bild21.jpg')">21</span><span class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--sun grid__item--22"><span class="grid__item-door"
-                style="background-image:url('bilder/bild22.jpg')">22</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--23"><span class="grid__item-door"
-                style="background-image:url('bilder/bild23.jpeg')">23</span><span
-                class="grid__item-shadow"></span></button>
-            <button class="grid__item grid__item--sky grid__item--lg grid__item--24"><span class="grid__item-door"
-                style="background-image:url('bild24.jpg')">24</span><span class="grid__item-shadow"></span></button>
-          </div>
+      <div class="calendar">
+        <div class="door door-1" data-day="1" onclick="openDoor(this)">
+          <div class="door-number">1</div>
+          <img src="/images/Tü1.png" alt="Türchen 1">
+        </div>
+        <div class="door door-2" data-day="2" onclick="openDoor(this)">
+          <div class="door-number">2</div>
+          <img src="/images/tür2.png" alt="Türchen 2">
+        </div>
+        <div class="door door-3" data-day="3" onclick="openDoor(this)">
+          <div class="door-number">3</div>
+          <img src="/images/tür3.png" alt="Türchen 3">
+        </div>
+        <div class="door door-4" data-day="4" onclick="openDoor(this)">
+          <div class="door-number">4</div>
+          <img src="/images/tür4.png" alt="Türchen 4">
+        </div>
+        <div class="door door-5" data-day="5" onclick="openDoor(this)">
+          <div class="door-number">5</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+5" alt="Türchen 5">
+        </div>
+        <div class="door door-6" data-day="6" onclick="openDoor(this)">
+          <div class="door-number">6</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+6" alt="Türchen 6">
+        </div>
+        <div class="door door-7" data-day="7" onclick="openDoor(this)">
+          <div class="door-number">7</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+7" alt="Türchen 7">
+        </div>
+        <div class="door door-8" data-day="8" onclick="openDoor(this)">
+          <div class="door-number">8</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+8" alt="Türchen 8">
+        </div>
+        <div class="door door-9" data-day="9" onclick="openDoor(this)">
+          <div class="door-number">9</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+9" alt="Türchen 9">
+        </div>
+        <div class="door door-10" data-day="10" onclick="openDoor(this)">
+          <div class="door-number">10</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+10" alt="Türchen 10">
+        </div>
+        <div class="door door-11" data-day="11" onclick="openDoor(this)">
+          <div class="door-number">11</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+11" alt="Türchen 11">
+        </div>
+        <div class="door door-12" data-day="12" onclick="openDoor(this)">
+          <div class="door-number">12</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+12" alt="Türchen 12">
+        </div>
+        <div class="door door-13" data-day="13" onclick="openDoor(this)">
+          <div class="door-number">13</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+13" alt="Türchen 13">
+        </div>
+        <div class="door door-14" data-day="14" onclick="openDoor(this)">
+          <div class="door-number">14</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+14" alt="Türchen 14">
+        </div>
+        <div class="door door-15" data-day="15" onclick="openDoor(this)">
+          <div class="door-number">15</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+15" alt="Türchen 15">
+        </div>
+        <div class="door door-16" data-day="16" onclick="openDoor(this)">
+          <div class="door-number">16</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+16" alt="Türchen 16">
+        </div>
+        <div class="door door-17" data-day="17" onclick="openDoor(this)">
+          <div class="door-number">17</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+17" alt="Türchen 17">
+        </div>
+        <div class="door door-18" data-day="18" onclick="openDoor(this)">
+          <div class="door-number">18</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+18" alt="Türchen 18">
+        </div>
+        <div class="door door-19" data-day="19" onclick="openDoor(this)">
+          <div class="door-number">19</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+19" alt="Türchen 19">
+        </div>
+        <div class="door door-20" data-day="20" onclick="openDoor(this)">
+          <div class="door-number">20</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+20" alt="Türchen 20">
+        </div>
+        <div class="door door-21" data-day="21" onclick="openDoor(this)">
+          <div class="door-number">21</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+21" alt="Türchen 21">
+        </div>
+        <div class="door door-22" data-day="22" onclick="openDoor(this)">
+          <div class="door-number">22</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+22" alt="Türchen 22">
+        </div>
+        <div class="door door-23" data-day="23" onclick="openDoor(this)">
+          <div class="door-number">23</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+23" alt="Türchen 23">
+        </div>
+        <div class="door door-24" data-day="24" onclick="openDoor(this)">
+          <div class="door-number">24</div>
+          <img src="https://via.placeholder.com/150?text=Türchen+24" alt="Türchen 24">
         </div>
       </div>
-    </div>
   </div>
 </section>
 
